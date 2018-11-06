@@ -21,8 +21,8 @@
     [super viewDidLoad];
     [self setTitle:@"QiFileManger"];
     
-//    // 关于沙盒
-//    [self testSandBoxDirectory];
+    // 关于沙盒
+    [self testSandBoxDirectory];
     
 //    // 关于NSFileManager
 //    [self testFileManager];
@@ -126,6 +126,7 @@
 }
 
 - (void)testBundle {
+    
     // 获取main bundle
     NSBundle *mainBundle = [NSBundle mainBundle];
     // 放在app mainBundle中的自定义Test.bundle
